@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use its formalization or teaching materials."
+type: software
+title: "On Triangles and Topographs"
+authors:
+  - family-names: "Weissman"
+    given-names: "Martin H."
+    affiliation: "University of California, Santa Cruz"
+    orcid: "https://orcid.org/0000-0003-2078-1185"
+repository-code: "https://github.com/MartyWeissman/on-triangles-and-topographs"
+version: "0.1.0"
+# Software license; standalone prose is CC BY 4.0. See LICENSES.md.
+license: "Apache-2.0"
+abstract: >-
+  A Lean 4 and mathlib formalization classifying the 25 ordered hyperbolic
+  cosine triples for which the discriminant is negative at every
+  nonidentity real embedding of the full cosine field. Includes commented
+  proofs, exact kernel-checked finite certificates, and introductory lessons.
+  Developed with substantial OpenAI Codex assistance, disclosed in the
+  provenance documentation. The current scope is the cosine-triple
+  classification; a theory of topographs is not yet formalized.
+keywords:
+  - Lean
+  - formalized mathematics
+  - cosine triples
+  - cyclotomic fields
+  - proof assistants
+references:
+  - type: article
+    authors:
+      - family-names: "Takeuchi"
+        given-names: "Kisao"
+    title: "Arithmetic triangle groups"
+    journal: "Journal of the Mathematical Society of Japan"
+    volume: "29"
+    issue: "1"
+    year: 1977
+    start: "91"
+    end: "106"
+    doi: "10.2969/jmsj/02910091"

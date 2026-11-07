@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+project_dir="$(cd "$(dirname "$0")" && pwd)"
+cd "$project_dir"
+if [ -x "$project_dir/.tools/lean/bin/lake" ]; then
+  export PATH="$project_dir/.tools/lean/bin:$PATH"
+elif [ -x "$HOME/.elan/bin/lake" ]; then
+  export PATH="$HOME/.elan/bin:$PATH"
+fi
+export MATHLIB_CACHE_DIR="$project_dir/.tools/mathlib-cache"
+exec lake "$@"

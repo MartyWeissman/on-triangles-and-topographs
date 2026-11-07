@@ -1,0 +1,425 @@
+'ArithmeticTriangles.Triangle.classification_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.discriminant_companion_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_eq_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.expectedArithmeticTriples_card' depends on axioms: [propext, Quot.sound]
+'ArithmeticTriangles.expectedArithmeticTriples_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.expectedArithmeticTriples_right_or_isosceles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.expectedArithmeticTriples_hyperbolic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.discriminant_cos_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.companionDiscriminant_sin_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminant_pos_iff_hyperbolic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.companionDiscriminant_neg_iff_structural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.discriminant_lt_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.structural_iff_product_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.middle_lt_twice_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.last_lt_first_mul_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.last_lt_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.scalene_first_three_ranges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.scalene_first_four_ranges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.arithmeticHyperbolic_iff_discriminant_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.embedding_eq_inclusion_of_fixes_discriminant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.cosineGenerator_isIntegral_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cosineField_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.deg_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.fieldDiscriminant_isIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantTrace_eq_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.embedding_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.embedding_preserves_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.embedding_eq_or_eq_neg_of_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.complex_embeddings_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantTrace_eq_sum_complex_embeddings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.arithmeticHyperbolic_three_three_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.arithmeticHyperbolic_three_three_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.arithmeticHyperbolic_four_four_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.arithmeticHyperbolic_six_six_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineRoot_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineGenerator_eq_root_add_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineCyclotomicGaloisEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineCyclotomicField_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cosineField_map_le_cyclotomic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineGenerator_chebyshev' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.chebyshev_root_im_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.complex_embedding_isReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cosineField_numberField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cosineField_isTotallyReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.real_embeddings_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.fieldTrace_eq_sum_real_embeddings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.trace_le_discriminant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.trace_lt_sixteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.trace_lt_discriminant_of_one_lt_deg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.trace_eq_integer_le_fifteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.trace_lt_twelve_of_first_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.exists_cyclotomicPowAut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cyclotomicPowAut_cosine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cyclotomicRealEmbedding_cosine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.even_index_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.odd_index_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.exists_odd_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.companion_neg_of_square_preserving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.companion_neg_of_odd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.companion_neg_of_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.companion_neg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.structural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.middle_lt_twice_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.last_lt_first_mul_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.last_lt_quotient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.scalene_first_three_ranges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.scalene_first_four_ranges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.product_neg_of_square_preserving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.even_embedding_ne_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.embedding_mem_of_generator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.evenAutomorphism_cosine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.evenAutomorphism_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.evenAutomorphism_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.even_deg_of_even_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.fieldTrace_eq_zero_of_automorphism_neg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.evenAutomorphism_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.product_trace_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.discriminantTrace_eq_square_traces' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.deg_le_ten_of_trace_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.deg_le_twelve_of_trace_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.odd_quotient_iff_twoAdic_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.twoAdic_commonDenominator_eq_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.odd_quotient_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.odd_maximalTwoAdicCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.cosineCyclotomicField_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.neg_nextCoeff_X_pow_sub_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cyclotomic_neg_nextCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.normalizedTrace_primitiveRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.normalizedTrace_cosine_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cyclotomic_normalizedTrace_cosine_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.generator_square_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.normalizedDiscriminantTrace_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.discriminantTrace_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.small_totient_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.squarefree_dvd_210_of_totient_lt_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.small_denominator_ratio_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.totient_ge_eight_of_moebius_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.moebiusRatio_ge_neg_eighth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.moebiusRatio_ge_neg_sixth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.large_denominator_ratio_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.normalizedTrace_ge_seven_sixths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.trace_ge_degree_mul_seven_sixths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.deg_le_ten_of_first_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.deg_le_twelve_of_scalene_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.root_add_inv_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosine_power_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cyclotomicRealEmbedding_eq_inclusion_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.exists_cyclotomicRealEmbedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_cyclotomic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.arithmeticHyperbolic_iff_cyclotomic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.singleCosineField_finiteDimensional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineRoot_im_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.singleCosineField_degree_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.singleCosineField_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.singleCosineField_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cosine_degree_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.cosine_totient_le_twice_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.denominator_totients_le_twice_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.denominator_totients_le_twenty_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.denominator_totients_le_twenty_of_first_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.cos_reducedCosineAngle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosineSignCertificate_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.rationalDiscriminantSign_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantSignCertificate_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.cyclotomicDiscriminant_neg_of_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.cyclotomicDiscriminant_pos_of_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.arithmeticHyperbolic_of_sign_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.not_arithmeticHyperbolic_of_sign_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.expectedArithmeticTriples_sign_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.expectedArithmeticTriples_arithmeticHyperbolic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.small_scalene_sign_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.not_arithmeticHyperbolic_of_scalene_first_three_to_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.seven_le_first_of_scalene' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.isosceles_of_first_three_to_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.classificationStatement_iff_completeness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.shifted_index_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.exists_small_unit_of_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.exists_small_unit_of_not_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.no_small_unit_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.no_small_unit_iff_mem_repeatedDenominators' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.small_index_cosine_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.not_equilateral_arithmetic_of_small_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.lift_unit_for_three_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosine_index_add_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.not_initial_three_pair_arithmetic_of_small_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.equilateral_denominator_mem_of_arithmetic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.initial_three_pair_denominator_mem_of_arithmetic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.equilateral_arithmetic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.initial_three_pair_arithmetic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.mem_expected_of_equilateral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.mem_expected_of_initial_three_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.classificationStatement_iff_remaining_cases' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ArithmeticTriangles.ClassificationStatement : Prop
+'ArithmeticTriangles.right_middle_gt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_denominators_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_doubled_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_fourth_angle_sum_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_middle_le_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_last_lt_twenty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_sign_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_mem_expected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.right_arithmetic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.mem_expected_of_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.cosineGenerator_lt_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cosine_power_sq_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.embedding_cosine_mem_Ioo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.embedding_cosine_sq_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.lift_unit_for_four_or_six_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.not_rational_square_pair_arithmetic_of_small_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.four_or_six_pair_denominator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.four_or_six_pair_sign_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.four_or_six_pair_arithmetic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.equal_larger_sign_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.equal_larger_arithmetic_iff_of_first_le_fifteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_isosceles_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_isosceles_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_neg_iff_isosceles_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.discriminantAt_neg_iff_isosceles_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.embedding_eq_inclusion_of_fixes_third_isosceles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.square_lt_of_fixes_first_isosceles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.odd_last_quotient_of_isosceles_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.odd_first_quotient_of_isosceles_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.mem_expected_of_isosceles_last_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.not_four_or_six_of_isosceles_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.adjoin_eq_top_of_unique_real_embedding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.cosineField_eq_single_third' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.single_first_le_single_third' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.deg_eq_third_totient_of_isosceles_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.fastTotient_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.odd_le_totient_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.le_two_totient_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.denominator_le_totient_bound_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.small_totient_126_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.denominator_le_231_of_totient_le_126' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.rootPair_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.rootPair_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.rootPair_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.discriminant_rootPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.root_order_ge_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.normalizedTrace_rootPair_ge_neg_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cyclotomic_cosine_eq_rootPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.conductor_quotient_triangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.large_root_indices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.normalizedTrace_ge_quarter_of_first_ge_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.deg_le_sixty_three_of_first_ge_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.smallCosineDegree_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.smallCosineDegree_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cos_centeredNumerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.integerCosineSign_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.shared_cosine_angle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.integerDiscriminantSignCertificate_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.not_arithmeticHyperbolic_of_integer_sign_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.large_degree_sign_certificates' depends on axioms: [propext, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.denominators_le_231_of_first_ge_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.mem_expected_of_first_ge_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.negative_moebius_totient_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.moebiusRatio_ge_neg_twentieth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.small_totient_62_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.denominator_le_105_of_totient_le_62' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.normalizedTrace_rootPair_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.normalizedTrace_rootPair_ge_neg_tenth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.cross_root_order_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.small_pair_constant_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.small_pair_trace_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.last_le_210_of_small_initial_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.small_initial_pair_sign_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.mem_expected_of_small_initial_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.middle_scalene_sign_certificates' depends on axioms: [propext, Quot.sound]
+'ArithmeticTriangles.Triangle.not_arithmeticHyperbolic_of_scalene_first_seven_to_ten' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.classification_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.arithmeticHyperbolic_iff_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.initial_pair_arithmetic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.final_pair_arithmetic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.ArithmeticHyperbolic.isosceles_of_not_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArithmeticTriangles.Triangle.not_arithmeticHyperbolic_of_scalene' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ArithmeticTriangles.degreeCandidates_check' depends on axioms: [propext]
+'ArithmeticTriangles.large_degree_checks' depends on axioms: [propext]
