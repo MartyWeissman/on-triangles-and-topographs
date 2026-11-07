@@ -10,6 +10,7 @@ authors:
 repository-code: "https://github.com/MartyWeissman/on-triangles-and-topographs"
 version: "0.1.0"
 date-released: "2026-11-07"
+doi: "10.5281/zenodo.24043993"
 # Software license; standalone prose is CC BY 4.0. See LICENSES.md.
 license: "Apache-2.0"
 abstract: >-

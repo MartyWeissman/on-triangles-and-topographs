@@ -88,7 +88,8 @@ as part of reproducing this version: it can change the dependency lock.
 
 Citation metadata is in [CITATION.cff](CITATION.cff), including the
 [GitHub repository](https://github.com/MartyWeissman/on-triangles-and-topographs).
-A Zenodo DOI will be added after the first archived release.
+Version 0.1.0 is archived on Zenodo: [DOI 10.5281/zenodo.24043993](https://doi.org/10.5281/zenodo.24043993).
+Cite this version-specific DOI when referring to the proofs in this release.
 Lean source, scripts, and configuration are licensed under
 [Apache 2.0](LICENSE). Standalone explanatory documents are licensed under
 [CC BY 4.0](LICENSE-DOCUMENTATION.txt). See [LICENSES.md](LICENSES.md) for the

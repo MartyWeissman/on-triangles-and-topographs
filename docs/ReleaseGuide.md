@@ -2,9 +2,11 @@
 
 The source repository is
 [MartyWeissman/on-triangles-and-topographs](https://github.com/MartyWeissman/on-triangles-and-topographs).
-The first version is `v0.1.0`, dated 2026-11-07. Zenodo integration was enabled
-before preparing this release; the DOI is to be recorded after ingestion.
-The steps below describe the publication workflow.
+[Version `v0.1.0`](https://github.com/MartyWeissman/on-triangles-and-topographs/releases/tag/v0.1.0)
+was released on 2026-11-07 and archived as [DOI 10.5281/zenodo.24043993](https://doi.org/10.5281/zenodo.24043993).
+Zenodo integration was enabled before publication. The DOI was added to
+repository metadata afterward; this did not change the archived release.
+The steps below describe the publication workflow for subsequent releases.
 
 ## Before uploading
 

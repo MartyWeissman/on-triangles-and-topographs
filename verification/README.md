@@ -44,3 +44,19 @@ From the root, `shasum -a 256 -c SHA256SUMS` (macOS) or
 edit files, the old checksums no longer describe the edited version; regenerate
 them for the next reviewed release. Checksums provide integrity information,
 not proof correctness or author authentication.
+
+## Published release
+
+[Verification of the final release commit](https://github.com/MartyWeissman/on-triangles-and-topographs/actions/runs/42412304751)
+passed for `e2c9e3b21a3421a4fdc74533adcd51aaf5218c73`, tagged `v0.1.0`.
+The published source archive's SHA-256 is
+`ecbf4f864fda34dc5564941769e7788964d7abbc36dea0b428258bb49c1ba887`.
+
+Zenodo archived the release at [DOI 10.5281/zenodo.24043993](https://doi.org/10.5281/zenodo.24043993).
+Its automatically generated ZIP has different archive packaging from the
+attached GitHub asset; all 77 source files were compared byte for byte with
+the tagged commit and matched. The Zenodo file checksum was also verified.
+
+The DOI and this verification record were added to the repository after
+archival. These subsequent metadata updates do not alter the tagged release
+or the archived proof sources.
