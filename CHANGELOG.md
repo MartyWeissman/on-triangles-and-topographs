@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — publication candidate (unreleased)
+## 0.1.0 — 2026-11-07
 
 - Complete equivalence between the full-cosine-field arithmetic hyperbolicity
   predicate and the explicit set of 25 triples.
@@ -12,12 +12,10 @@
   and a 238-declaration axiom audit.
 - Curated initial source snapshot with explicit provenance and AI-assistance
   disclosure. The original private development history is not distributed.
-
 - Added the Takeuchi (1977), Theorem 3 comparison and bibliographic reference.
 - Clarified that the starting PDF was developed with extensive OpenAI Codex
   (GPT-6 Astra) assistance under Martin H. Weissman’s direction.
-
 - Applied Apache 2.0 to software and CC BY 4.0 to standalone documentation,
   with full license texts and explicit file-category scope.
 
-No publication date or DOI has yet been assigned in this candidate.
+The release date is 2026-11-07. A Zenodo DOI will be linked after ingestion.

@@ -9,6 +9,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-2078-1185"
 repository-code: "https://github.com/MartyWeissman/on-triangles-and-topographs"
 version: "0.1.0"
+date-released: "2026-11-07"
 # Software license; standalone prose is CC BY 4.0. See LICENSES.md.
 license: "Apache-2.0"
 abstract: >-
@@ -19,6 +20,8 @@ abstract: >-
   Developed with substantial OpenAI Codex assistance, disclosed in the
   provenance documentation. The current scope is the cosine-triple
   classification; a theory of topographs is not yet formalized.
+  Software is licensed under Apache 2.0; standalone documentation is
+  licensed under CC BY 4.0.
 keywords:
   - Lean
   - formalized mathematics

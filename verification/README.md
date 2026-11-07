@@ -29,9 +29,14 @@ dependencies of named declarations; these findings are not an external review
 of the mathematical specification or a claim that every declaration in mathlib
 was individually audited.
 
-The GitHub workflow is configured but has not yet run on GitHub. No independent
-peer review or second proof-checker run is claimed. Reproduce the local checks
-using [these instructions](../docs/Reproducibility.md).
+The [first GitHub verification run](https://github.com/MartyWeissman/on-triangles-and-topographs/actions/runs/42411212711)
+passed on Ubuntu 24.04 for commit `d4911847466f4091fc97947272d4611e8e2ad728`.
+It built the library, compiled the lessons, passed all seven regression tests
+and the 238-declaration audit, and confirmed the dependency lock was preserved.
+The release-preparation changes following that commit affect documentation,
+citation metadata, and checksums only. No independent peer review or second
+proof-checker implementation is claimed. Reproduce the checks using
+[these instructions](../docs/Reproducibility.md).
 
 `SHA256SUMS` at the repository root lists every distributed file except itself.
 From the root, `shasum -a 256 -c SHA256SUMS` (macOS) or

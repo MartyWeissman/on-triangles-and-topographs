@@ -10,8 +10,8 @@ general theory of topographs.
 
 **Status:** the classification is proved in both directions for arbitrary
 triples. The library and lessons compile with the pinned dependencies, and an
-axiom audit includes the final theorem. This is an initial release candidate,
-not a claim of independent peer review. See [verification](verification/README.md).
+axiom audit includes the final theorem. Version **0.1.0** is the first release. GitHub’s Linux verification also passed;
+no independent peer review is claimed. See [verification](verification/README.md).
 
 ## The mathematical statement
 

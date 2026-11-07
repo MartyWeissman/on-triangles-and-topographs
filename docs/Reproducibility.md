@@ -58,9 +58,9 @@ modules can take minutes; subsequent unchanged builds are much faster.
 ## Automated checks and source inspection
 
 [The GitHub workflow](../.github/workflows/lean.yml) is configured to build and
-run verification on pushes and pull requests. Its actual status must be checked
-on GitHub after publication; configuring a workflow is not evidence that a
-hosted run has succeeded.
+run verification on pushes and pull requests. The first hosted run passed;
+see the [verification record](../verification/README.md) for its commit and link.
+Check the workflow status for any later commit you intend to use.
 
 [Check.lean](../Check.lean) lists the audited declarations. Read the definitions
 in [CosineField.lean](../ArithmeticTriangles/CosineField.lean) and the final
